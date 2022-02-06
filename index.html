@@ -3,12 +3,69 @@
 
 <head>
     <meta charset=utf-8/>
+    <title>hw-03</title>
+    <h1>HTML+CSS & Marks+Channels</h1>
 </head>
 
 
 <body>
+    <img src="bubble_and_pie_chart.png">
+    <p>
+       The data types represented here are items and attributes. 
+       The items are each pie chart, which contains discrete information about some aspect of the data, and each pie chart contains attribute data, although whether it is categorical or ordered is unknown.
+       The marks used are both points and areas, as each pie chart acts as a point conveying separate information from the information within each pie chart, which have areas. They are used as items/nodes because they are each conveying a piece of data instead of the connections between data.
+       Size is an important channel here because the size of each pie chart represents the amount of data that falls at each point. 
+       Both vertical and horizontal position are used, being represented by the x and y axes of the chart. 
+       Color works to highlight each individual slice of the pie chart to make them stand out from each other, and the tilt of the pie chart slices keeps the relative positions of each one equal.
+    </p>
 
+    <img src="bump_chart.png">
+    <p>
+        The data types here are both items and attributes: each bar is an item, an individual category, and each bar has its own attributes — subcategories that are measured. Each subcategory here is categorical data and the area of each subcategory is quantitative data. 
+        The marks used on this chart are lines and areas. 
+        The larger bars (lines) show the distribution of categories, and each bar has its own subcategories it’s divided into (areas). 
+        The area each subcategory takes up represents the part-to-whole relationship it has with the larger bar. 
+        The size channel, specifically area, is crucial to the stacked bar chart, represented by the amount of the individual bar that each subcategory takes up. 
+        This is assisted by the color channel; it clarifies the breakdown of the categories each individual bar consists of. The position channel is also used here, with the horizontal position conveying which category each individual bar falls under and the vertical position conveying each individual category’s distribution in relation to the others. 
+    </p>
 
+    <img src="mind_map.png">
+    <p>
+        The data types here are items and attributes, and links: each candidate in the chart is an item, and each rank they take on is an attribute. 
+        Ranks are ordinal attributes by nature. 
+        The links here show the relationship between an individual’s ranks over time. 
+        The marks used here are both points and lines, as both convey information. 
+        The points are items/nodes that convey the current ranking of each piece of data in the ordering, and the lines are links that convey the change of each point over time and which points are connected/the same.
+        The channels used here are color, position, and tilt.The color of each point highlights where each piece of data goes from one year to the next to be more easily readable, and the positions on the x and y axes make it easy to see the time, rank, and relationships between them in a way that the eye can follow. 
+        The tilt of each line conveys how much change has occurred per year — it shows if there was a promotion or a demotion and how far the rank changed.
+    </p>
+
+    <img src="stacked_bar_chart.png">
+    <p>
+        The mind map shows items in the form of each node on the map, which shows the information associated with each idea, and links in the form of the lines between each idea, which show how the nodes connect to each other and which ones do so.
+        The marks here are points and lines, the points being the map nodes which convey the data of the idea and are used as items/nodes, and the lines being the links between them which convey the data of the connections, which are used as links.
+        The channels used here are color and position. The positioning of each node of the map can be used to categorize them into separate classes. 
+        Color can be used to group the ideas into subcategories, show generations removed from the central theme, or other such things to make it more readable, although in the general form it is unknown if these specific colors represent anything because the data itself is unknown to us.
+    </p>
+
+    <div>
+        <svg width="400" height="110">
+            <rect width="300" height="100"/>
+        </svg>
+        <svg width="400" height="110">
+            <circle cx="50" cy="50" r="40"/>
+        </svg>
+    </div>
+    <h2>Acknowledgements</h2>
+    <div>
+        <ol>
+            <li>W3Schools</li>
+            <li>Mozilla CSS Tutorials</li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
 </body>
 
 </html>
