@@ -28,6 +28,7 @@ body {
 
 .shape {
 	fill: "red";
+	background-repeat: repeat-x;
 }
 
 .shape:hover {
