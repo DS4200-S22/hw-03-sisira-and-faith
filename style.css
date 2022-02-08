@@ -8,8 +8,20 @@ body {
 
 .h1 {
 	font-family: Arial;
+	text-align: center;
+}
+
+.h2 {
+	font-family: Arial;
+	text-align: center;
 }
 
 .container {
 	display:  flex;
+	flex-wrap: wrap;
+	align-content: space-evenly;
+}
+
+.item {
+	padding: 3;
 }
