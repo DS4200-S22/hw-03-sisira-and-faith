@@ -9,7 +9,8 @@
 
 
 <body>
-    <img src="bubble_and_pie_chart.png">
+    <div class="container">
+        <img src="bubble_and_pie_chart.png" class="item">
     <p>
        The data types represented here are items and attributes. 
        The items are each pie chart, which contains discrete information about some aspect of the data, and each pie chart contains attribute data, although whether it is categorical or ordered is unknown.
@@ -19,7 +20,7 @@
        Color works to highlight each individual slice of the pie chart to make them stand out from each other, and the tilt of the pie chart slices keeps the relative positions of each one equal.
     </p>
 
-    <img src="bump_chart.png">
+    <img src="bump_chart.png" class="item">
     <p>
         The data types here are both items and attributes: each bar is an item, an individual category, and each bar has its own attributes — subcategories that are measured. Each subcategory here is categorical data and the area of each subcategory is quantitative data. 
         The marks used on this chart are lines and areas. 
@@ -29,7 +30,7 @@
         This is assisted by the color channel; it clarifies the breakdown of the categories each individual bar consists of. The position channel is also used here, with the horizontal position conveying which category each individual bar falls under and the vertical position conveying each individual category’s distribution in relation to the others. 
     </p>
 
-    <img src="mind_map.png">
+    <img src="mind_map.png" class="item">
     <p>
         The data types here are items and attributes, and links: each candidate in the chart is an item, and each rank they take on is an attribute. 
         Ranks are ordinal attributes by nature. 
@@ -40,13 +41,14 @@
         The tilt of each line conveys how much change has occurred per year — it shows if there was a promotion or a demotion and how far the rank changed.
     </p>
 
-    <img src="stacked_bar_chart.png">
+    <img src="stacked_bar_chart.png" class="item">
     <p>
         The mind map shows items in the form of each node on the map, which shows the information associated with each idea, and links in the form of the lines between each idea, which show how the nodes connect to each other and which ones do so.
         The marks here are points and lines, the points being the map nodes which convey the data of the idea and are used as items/nodes, and the lines being the links between them which convey the data of the connections, which are used as links.
         The channels used here are color and position. The positioning of each node of the map can be used to categorize them into separate classes. 
         Color can be used to group the ideas into subcategories, show generations removed from the central theme, or other such things to make it more readable, although in the general form it is unknown if these specific colors represent anything because the data itself is unknown to us.
     </p>
+</div>
 
     <div>
         <svg width="400" height="110">
@@ -66,6 +68,6 @@
             <li></li>
         </ol>
     </div>
+</div>
 </body>
-
 </html>
