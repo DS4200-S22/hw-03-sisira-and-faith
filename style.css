@@ -34,3 +34,7 @@ body {
 .shape:hover {
 	fill: "blue";
 }
+
+.ol {
+	text-align: center;
+}
