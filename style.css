@@ -20,19 +20,17 @@ body {
 .container {
 	display:  flex;
 	flex-flow: row wrap;
-	flex-direction: row;
 	flex-wrap: wrap;
-	flex-shrink: 3;
 	align-content: space-evenly;
-	border: 10px solid black;
 }
 
 .container > div {
-  flex: 1 1;
+  flex: 1 1 150px;
 }
 
 .item {
 	padding: 40px;
+	border: 10px solid black;
 }
 
 .shape {
