@@ -8,8 +8,8 @@ body {
 
 .h1 {
 	font-family: Arial;
-	margin-left: 2;
-	margin-right: 2;
+	margin-left: 2px;
+	margin-right: 2px;
 }
 
 .h2 {
@@ -24,17 +24,17 @@ body {
 }
 
 .item {
-	padding: 3;
+	padding: 3px;
 }
 
 .shape {
-	fill: "red";
+	fill: red;
 	background-repeat: repeat-x;
-	padding: 1;
+	padding: 3px;
 }
 
 .shape:hover {
-	fill: "blue";
+	fill: blue;
 }
 
 .ol {
