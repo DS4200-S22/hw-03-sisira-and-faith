@@ -31,7 +31,7 @@ p {
 	display: flex;
 	align-items: center;
 	fill: red;
-	padding: 3px;
+	padding: 5%;
 }
 
 .shape:hover {
