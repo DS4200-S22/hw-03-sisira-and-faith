@@ -19,21 +19,28 @@ p {
 img {
     max-width: 100%;
     max-height: 100%;
+
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .container {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	justify-content: space-evenly;
-	flex-shrink: 2;
 	max-width: 100%;
 	margin: 5%;
+
+	align-items: center;
+	align-content: space-around;
 }
 
 .item {
+	flex:  1 1 60vh;
 	border: 10px solid black;
 	margin: 2.5%;
+	max-width: 100%;
+    max-height: 100%;
 }
 
 .shape {
