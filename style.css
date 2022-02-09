@@ -16,15 +16,24 @@ p {
 	padding: 2%;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .container {
-	display:  flex;
-	flex-flow: row wrap;
-	align-content: space-evenly;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	flex-shrink: 2;
+	max-width: 100%;
+	margin: 5%;
 }
 
 .item {
-	padding: 40px;
 	border: 10px solid black;
+	margin: 2.5%;
 }
 
 .shape {
