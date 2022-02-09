@@ -27,6 +27,7 @@ body {
 	fill: red;
 	background-repeat: repeat-x;
 	padding: 3px;
+	text-align: center;
 }
 
 .shape:hover {
