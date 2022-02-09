@@ -1,20 +1,15 @@
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
 body {
 	font-family: Arial;
-	padding: 10%;
-}
-
-.p {
-	font-family: Arial;
-}
-
-.h1 {
-	font-family: Arial;
-	margin: auto;
-}
-
-.h2 {
-	font-family: Arial;
-	text-align: center;
+	padding: 3%;
+	height: 100%;
 }
 
 .container {
@@ -22,7 +17,6 @@ body {
 	flex-flow: row wrap;
 	align-content: space-evenly;
 }
-
 
 .item {
 	padding: 40px;
@@ -39,6 +33,11 @@ body {
 	fill: blue;
 }
 
-.ol {
-	text-align: center;
+ul{
+	margin-left: 42%;
+	margin-right: 42%;
+}
+
+.resource-list div {
+	width: 100%;
 }
